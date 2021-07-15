@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background: linear-gradient(130deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  font-family: monospace;
+}
+
+main {
+  width: 100%;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.btn {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 1px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: white;
+  background: #315efb;
+  transition: 0.3s;
+}
+.half-width {
+  margin-top: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.btn:hover {
+  box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+  transform: scale(1.05);
+}
+
+.output {
+  font-size: 20px;
+}
